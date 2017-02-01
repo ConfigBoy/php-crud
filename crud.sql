@@ -1,0 +1,13 @@
+
+CREATE TABLE IF NOT EXISTS `illusion_sample` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `name` varchar(255) default NULL,
+  `email` varchar(255) default NULL,
+  `company` varchar(255),
+  `address` varchar(255) default NULL,
+  `country` varchar(100) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `illusion_sample` (`name`,`email`,`company`,`address`,`country`) VALUES ("Boris, Halla","Fusce.diam.nunc@risusNullaeget.edu","Odio A Purus Associates","1076 Scelerisque Rd.","Iran"),("Seth, Claudia","lacus.Cras@massanon.org","Mauris Erat Eget Foundation","9615 Lorem Av.","El Salvador"),("Mufutau, Rhona","Etiam.vestibulum@velit.ca","Aenean Sed Limited","382-4969 Et St.","Burkina Faso"),("Norman, Jescie","velit.Quisque@quisdiamPellentesque.net","Orci In Consulting","557-3142 Aliquam Street","Uruguay"),("Zorita, Reuben","magnis.dis@liberolacusvarius.co.uk","Mauris Company","7561 Libero. Av.","Sint Maarten"),("Kelly, Jesse","tristique.senectus.et@intempus.com","Integer In Magna Institute","Ap #569-6904 Auctor. Avenue","Jordan"),("Oleg, Mechelle","eleifend.Cras.sed@ipsumdolorsit.ca","Erat Incorporated","692-9148 Magna. Road","Nauru"),("Julie, Oleg","dolor.egestas@aliquetProin.ca","Suspendisse Eleifend Corporation","238-5017 Ac Ave","Dominica"),("Brian, Yeo","lectus.pede.ultrices@necmetus.net","Cum Ltd","P.O. Box 142, 3557 Leo, Rd.","United Kingdom (Great Britain)"),("Francesca, Harriet","Sed@estmollisnon.edu","Lorem Corporation","313-3798 Urna. Road","Honduras");
+INSERT INTO `illusion_sample` (`name`,`email`,`company`,`address`,`country`) VALUES ("Suki, Nora","et.netus.et@vitae.edu","Sagittis Duis Ltd","6371 Vitae St.","Seychelles"),("Elmo, Raya","ut.erat.Sed@Nullam.co.uk","Ultricies Adipiscing Enim LLC","P.O. Box 449, 384 Nulla. St.","Jordan"),("Elton, Glenna","orci@facilisis.edu","Vivamus Molestie Dapibus LLP","4270 Vivamus Rd.","Zambia"),("Mannix, Bree","egestas@arcuiaculisenim.net","Quis Diam Pellentesque Corporation","4235 Non, Rd.","Tokelau"),("Medge, Melinda","Vivamus.euismod.urna@Uttincidunt.com","Ac Inc.","Ap #775-6965 Dolor. Ave","Timor-Leste"),("Preston, Clare","metus@vitae.co.uk","Sed LLC","813-8413 Mauris Rd.","Uruguay"),("Eve, Len","Integer.sem@Praesenteunulla.org","Condimentum Eget Foundation","2111 Lacus. Rd.","Mali"),("Leonard, Omar","ullamcorper@aliquetlibero.com","Primis Industries","P.O. Box 986, 3716 Imperdiet Avenue","Mayotte"),("Damon, Amanda","velit.Quisque@eget.com","Vitae Erat PC","8851 Lectus Street","Dominican Republic"),("Neil, Yoko","faucibus.Morbi.vehicula@temporlorem.co.uk","Lobortis Quam A Incorporated","5682 Nunc St.","British Indian Ocean Territory");
